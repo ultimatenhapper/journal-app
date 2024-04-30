@@ -24,11 +24,11 @@ export function SideBar({ drawerWidth }) {
         open
         sx={{
           display: { xs: "block" },
-          "&.MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth },
+          "& .MuiDrawer-paper": { boxSizing: "border-box", width: drawerWidth },
         }}
       >
         <Toolbar>
-          <Typography variant="h6" noWrap>
+          <Typography variant="h6" noWrap component='div'>
             {displayName}
           </Typography>
         </Toolbar>
